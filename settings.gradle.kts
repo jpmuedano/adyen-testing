@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Adyen-Testing"
+rootProject.name = "adyen-testing"
 include(":app")
- 
+include(":server")

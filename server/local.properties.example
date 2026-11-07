@@ -1,0 +1,12 @@
+# Copy to server/local.properties (git-ignored) and fill in from the Adyen Customer Area (TEST).
+# Environment variables with the same names override these values.
+
+# Developers > API credentials > your ws_ user > Server settings > API key
+ADYEN_API_KEY=
+# Your merchant account name (top-left account switcher), e.g. YourCompanyECOM
+MERCHANT_ACCOUNT=
+# Developers > Webhooks > your webhook > HMAC key. Only needed from Phase 4.
+HMAC_KEY=
+
+# Dev-only: log server->Adyen request/response bodies (API key masked). Never in production.
+LOG_ADYEN_TRAFFIC=false

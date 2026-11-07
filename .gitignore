@@ -1,15 +1,16 @@
+# IDE: never commit any IntelliJ / Android Studio local files
+.idea/
 *.iml
+*.iws
+*.ipr
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
-/build
+# Build output in every module (root, app/, server/, ...)
+build/
+.kotlin/
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+*.log
